@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <appSettings>
+    <add key="ServerUrl" value="https://192.168.0.1/index.html" />
+    <add key="BrowserUrl" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" />
+    <add key="BrowserUrlAlt" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" />
+    <add key="BrowserArguments" value="--incognito --kiosk --allow-running-insecure-content" />
+    <add key="VBoxName" value="MANLLG" />
+    <add key="VBoxManageDir" value="C:\Program Files\Oracle\VirtualBox" />
+    <add key="HostBeatInterval" value="10" />
+    <add key="TopMost" value="0" />
+    <add key="ShutdownCount" value="114" />
+  </appSettings>
+  <startup>
+    <supportedRuntime version="v2.0" sku=".NETFramework,Version=v2.0"/>
+  </startup>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="BasicHttpsBinding_IAdminExternalService">
+          <security mode="Transport" />
+        </binding>
+        <binding name="BasicHttpsBinding_IServerPusatSyncService">
+          <security mode="Transport" />
+        </binding>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="https://192.168.0.1/Service.svc"
+        binding="basicHttpBinding" bindingConfiguration="BasicHttpsBinding_IAdminExternalService"
+        contract="ArthurSR.IAdminExternalService" name="BasicHttpsBinding_IAdminExternalService" />
+      <endpoint address="https://192.168.0.1/Service.svc"
+        binding="basicHttpBinding" bindingConfiguration="BasicHttpsBinding_IServerPusatSyncService"
+        contract="ArthurSR2.IServerPusatSyncService" name="BasicHttpsBinding_IServerPusatSyncService" />
+    </client>
+  </system.serviceModel>
+</configuration>

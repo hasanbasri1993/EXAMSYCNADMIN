@@ -1,0 +1,12 @@
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbprojResolveAssemblyReference.cache
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Exam Sycn.exe
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Exam Sycn.pdb
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Exam Sycn.xml
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.frm_setting.resources
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Exam Sycn.exe
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Exam Sycn.xml
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Exam Sycn.pdb
+C:\Users\Pusdai-B\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.frm_control.resources
